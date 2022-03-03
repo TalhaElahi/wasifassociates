@@ -182,6 +182,8 @@
                                                     <ul class="sub-menu">
                                                         <li><a href="gallery.html">Media Gallery</a></li>
                                                         <li><a href="javascript:void(0);">Bahria Town Maps</a>
+                                                            <li><a href="testimonials.html">Testimonials</a></li>
+
                                                             <ul class="sub-menu">
                                                                 <li><a href="media/pdf/Wasif_Associates_BTK_A.pdf">Part-A</a></li>
                                                                 <li><a href="media/pdf/Wasif_Associates_BTK_B.pdf">Part-B</a></li>
@@ -276,7 +278,8 @@
         <section class="contact-page">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 align-self-center mb-5 mb-lg-0">
+                    <!-- <div class="col-lg-6 align-self-center mb-5 mb-lg-0">
+
                         <div class="contact-left">
                             <h2>Get in Touch</h2>
                             <p class="font14">Your email address will not be published. Required fields are marked *</p>
@@ -294,6 +297,31 @@
                                     <p>
                                         <button type="submit" class="octf-btn">Send Message</button>
                                     </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div> -->
+
+                    <div class="col-lg-6 align-self-center mb-5 mb-lg-0">
+                        <div class="contact-left">
+                            <h2>Get In Touch</h2>
+                            <p class="font14"><i>Your email address will not be published. Required fields are marked *</i></p>
+                            <form action="contact.php" method="post" class="wpcf7">
+                                <div class="main-form">
+                                    <p>
+                                        <input type="text" name="name" value="" size="40" class="" aria-invalid="false" placeholder="Your Name*" required="">
+                                    </p>
+                                    <p>
+                                        <input type="email" name="email" value="" size="40" class="" aria-invalid="false" placeholder="Your Email*" required="">
+                                    </p>
+                                    <p>
+                                        <input type="email" name="email" value="" size="40" class="" aria-invalid="false" placeholder="Mobile Number*" required="">
+                                    </p>
+
+                                    <p>
+                                        <textarea name="message" cols="40" rows="10" class="" aria-invalid="false" placeholder="Your message here" required=""></textarea>
+                                    </p>
+                                    <p><button type="submit" class="octf-btn">Send Message</button></p>
                                 </div>
                             </form>
                         </div>
