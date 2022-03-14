@@ -12274,4 +12274,13 @@ p {
 }
 
 
+/* map */
+
+@media screen and (max-height: 700px) {
+    #content-desktop {
+        display: none !important;
+    }
+}
+
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
