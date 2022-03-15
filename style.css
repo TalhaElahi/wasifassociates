@@ -5920,6 +5920,14 @@ object {
     text-align: left;
 }
 
+.ot-pricing-table .inner-table .details-1 ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 42px;
+    text-align: left;
+}
+
 .ot-pricing-table .inner-table .details ul li {
     position: relative;
     color: #b8b8b8;
